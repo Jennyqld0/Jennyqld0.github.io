@@ -101,10 +101,10 @@
   <div class="w3-container w3-light-grey w3-padding-32" id="news">
    <h2>News</h2>
       <p><li> 08/2022, Now I am finding a <font color="#dd0000" style="font-size:20px"> Ph.D. position</font> in robotics &nbsp/&nbsp deep learning, please contact me if you want.</li></p> 
-        <p><li> 05/2022, Won the "Shenzhen Division Nomination Award" in the preliminary competition for the <a href="https://cas.makercas.com/index.html">"First Cup" Future Technology Innovation Competition</a>.</li></p>
+     <!--    <p><li> 05/2022, Won the "Shenzhen Division Nomination Award" in the preliminary competition for the <a href="https://cas.makercas.com/index.html">"First Cup" Future Technology Innovation Competition</a>.</li></p>-->
         <p><li> 12/2021, Our projects participated in the <a href="https://www.chtf.com/english/">China International High-tech Achievements Fair</a> 2022.</li></p>
         <p><li> 06/2020, Obtain my Honors B.Eng. degree from the <a href="https://english.bit.edu.cn">Beijing Institute of Technology</a>. </li></p>
-        <p><li> 5/2018, Win <a href="https://Jennyqld0.github.io/data/S Prize of MCM.pdf"> S Prize </a> of the <a href="https://www.comap.com/undergraduate/contests/mcm/">Mathematical Contest in Modeling(MCM)</a>.</li></p>
+    <!--     <p><li> 5/2018, Win <a href="https://Jennyqld0.github.io/data/S Prize of MCM.pdf"> S Prize </a> of the <a href="https://www.comap.com/undergraduate/contests/mcm/">Mathematical Contest in Modeling(MCM)</a>.</li></p>-->
       <!--
       <p><li> 01/2021, I will give a talk about AdderNet at <a href="https://haet2021.github.io/speakers.html">HAET ICLR 2021 workshop</a>.</li></p>
       <p><li> 12/2020, two papers have been accepted by <a href="https://aaai.org/Conferences/AAAI-21/">AAAI 2021</a>.</li></p>
@@ -123,25 +123,41 @@
 <!-- The Projects Section -->
   <div class="w3-container w3-padding-32" id="projects">
     <h2>Recent Projects</h2>
-    <p class="w3-justify">
-The sensing system of the human skin, including the fingers, has a flexible three-dimensional force sensing function, which guarantees dexterous grasping in daily human life. It is the terminal flexible sensing system that the modern robot grasping does not have. Due to the lack of mechanical sensing and adaptive force control system, the current industrial robots can only perform fixed and repeated operations, significantly limiting their application scenarios. We can also say that a machine without tactile perception ability is brutal to call a "robot", and flexible 3 D force tactile sensors give the machine the meaning of "human".        
-
+<p class="w3-justify">
     </p>
 
         <h4><li>Three-Dimensional Force Sensor</li></h4>
-        <img style="width:96%;" src="images/sensors.png"> 
-
-        <p class="w3-justify">
-This project will realize in-situ real-time multi-dimensional force decoupling under flexible conditions through visual-tactile and deep learning technologies so that the robot can sense the positive pressure Fz and the vertical shear force Fx and Fy in the horizontal tactile force and provide the robot with more detailed tactile information such as force position and vibration frequency. At the same time, based on the tactile information provided by the sensor and the robot's control system, the adaptive fusion force control algorithm is developed so that the robot can operate as skillfully as human beings.
+     <!--   <img style="width:96%;" src="images/sensors.png"> -->
 </p>
-<p class="w3-justify">
+    <p class="w3-justify">
+The sensing system of the human skin, including the fingers, has a soft three-dimensional force sensing function, which guarantees dexterous grasping in daily human life. However, due to the lack of mechanical sensing and adaptive force control system, the current industrial robots can only perform fixed and repeated operations, significantly limiting their application scenarios. We can also say that a machine without tactile perception ability is brutal to call a "robot", and soft 3D force tactile sensors give the machine the meaning of "human".        
+       </p>
+
+     <!--    <h4><li>Three-Dimensional Force Sensor</li></h4>-->
+       <img style="width:86%;" src="images/design.png"> 
+</p>    
+      <p class="w3-justify">
+
+This project will realize in-situ real-time multi-dimensional force decoupling under soft conditions through visual-tactile and deep learning technologies so that the robot can sense the normal force Fz and the shear force Fx and Fy and provide the robot with more detailed tactile information such as force position and vibration frequency. At the same time, based on the tactile information provided by the sensor and the robot's control system, the adaptive fusion force control algorithm is developed so that the robot can operate as skillfully as human beings.
+</p>
+       </p>
+
+         <h5><li>Three-Dimensional Force Sensor Demo - Manipulation/Grasping</li></h5>
+       <img style="width:30%;" src="images/chips.mp4"/> 
+<img style="width:65%;" src="images/egg.mp4"/> 
+</p>    
+</p>    
+      <p class="w3-justify">
+Robot gripper using tactile feedback from the proposed sensor to hold a chip/egg without squishing it.
+</p>
+<!-- 
 Image processing to decouple multidimensional forces originated in the 2014 Gelsight vision-tactile sensor proposed by the E. H. Adelson team at MIT. Meta’s Digit sensor optimizes the structure of the sensor to integrate it into the fingertips for robotic operations.
 </p>
 <p class="w3-justify">
 We expect to achieve the following indicators: 1, Sensor 3 D force identification accuracy Fx 95%, Fy 95%, Fz 95%; 2, sensor range: 0.5 N to 1000 N, resolution: 0.1 N, sensor size less than 5 mm x 5 mm x 5 mm, weight not more than 100g; 3, sensor measurement frequency 50 Hz; 4, sensor elastic body hardness Shaw hardness 30, maximum tensile rate 80%;
 </p>
 <p class="w3-justify">
-<!-- 
+
 Technical difficulties:
 1. Selection and processing of soft functional materials to ensure noticeable optical image changes taken under appropriate optical conditions; 2. Optimize the micro camera's optical path design and the overall device's thickness to ensure the image's noticeable changes under 3 D force; 3. Multi-dimensional force decoupling under flexible working conditions through deep learning technology with the help of visual information.
         </p> 
@@ -187,8 +203,42 @@ Technical difficulties:
                 </div>
             </td>
         </div>
-
-
+        <div class="leftp">
+            <img style="width: 90%;max-width: 300px" alt="profile photo" src="images/effeort.png">
+        </div>
+        <div class="rightp">
+            <td class="paper_info" valign="top">
+              
+                <div class="paper_title">Effect of pattern on the resolution of the visual-tactile sensor
+                </div>
+                <div class="paper_author"><strong>Qingling Duan*</strong>, Qi Zhang*, Dong Luo*, Yongsheng Ou
+                    </div>
+                <div class="paper_pub"> <i>submitted to robio, 2022 </span></i></div>
+                <div class="paper_links">
+                            <span>
+                                <a class="paper_link" href="https://Jennyqld0.github.io/data/Effect of pattern on the resolution of the visual-tactile sensor.pdf">Paper</a>
+                            </span>
+                </div>
+            </td>
+        </div>
+        <div class="leftp">
+            <img style="width: 70%;max-width: 300px" alt="profile photo" src="images/four.png">
+        </div>
+        <div class="rightp">
+            <td class="paper_info" valign="top">
+              
+                <div class="paper_title">Three-Dimensional Force Sensor based on Deep Learning
+                </div>
+                <div class="paper_author"><strong>Qingling Duan*</strong>, Qi Zhang*,  Zhiyuan Liu, Yongsheng Ou
+                    </div>
+                <div class="paper_pub"> <i>submitted to ICCCS', 2022 </span></i></div>
+                <div class="paper_links">
+                            <span>
+                                <a class="paper_link" href="https://Jennyqld0.github.io/data/root.pdf">Paper</a>
+                            </span>
+                </div>
+            </td>
+        </div>
 <!-- The Services Section -->
   <div class="w3-container w3-light-grey w3-padding-32" id="service">
     <h2>Services</h2>
